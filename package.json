@@ -1,0 +1,19 @@
+{
+  "name": "custom-logs",
+  "version": "1.0.0",
+  "description": "Modulo custom para mostrar logs",
+  "main": "dist/index.js",
+  "types": "commonjs",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ivan Lozada Mendez",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^12.7.2",
+    "ts-node": "^8.3.0",
+    "typescript": "^3.5.3"
+  }
+}

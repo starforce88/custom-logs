@@ -1,12 +1,13 @@
 {
   "name": "custom-logs",
-  "version": "1.0.0",
+  "version": "1.1.2",
   "description": "Modulo custom para mostrar logs",
   "main": "dist/index.js",
   "types": "commonjs",
   "scripts": {
     "build": "tsc",
     "watch": "tsc --watch",
+    "dev": "nodemon lib/index.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Ivan Lozada Mendez",
@@ -15,5 +16,8 @@
     "@types/node": "^12.7.2",
     "ts-node": "^8.3.0",
     "typescript": "^3.5.3"
+  },
+  "dependencies": {
+    "@google-cloud/logging": "^5.2.2"
   }
 }
